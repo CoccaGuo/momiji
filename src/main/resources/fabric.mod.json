@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "momiji",
+  "version": "0.0.1",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Momiji",
+  "description": "A Japanese style mod.",
   "authors": [
-    "Me!"
+    "CoccaGuo"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/CoccaGuo/momiji"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "mit",
+  "icon": "assets/momiji/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.cocca.momiji.MainMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "momiji.mixins.json"
   ],
 
   "depends": {
